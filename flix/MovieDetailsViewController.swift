@@ -19,8 +19,15 @@ class MovieDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let posterPath = movie["poster_path"] as! String
+        let posterUrl = createImageUrl(path: posterPath, size: "w185")
+        let backdropPath = movie["backdrop_path"] as! String
+        let backdropUrl = createImageUrl(path: backdropPath, size: "w780")
+        
+        backdropView.af_setImage(withURL: backdropUrl)
+        posterView.af_setImage(withURL: posterUrl)
+        titleLabel.text = movie["title"] as! String
+        overviewLabel.text = movie["overview"] as! String
     }
     
 
