@@ -177,7 +177,7 @@
         <scene sceneID="HtV-lc-Lp7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ses-0F-tIK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing" id="xCZ-eV-2DO"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" image="now_playing_tabbar_item" id="xCZ-eV-2DO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OYM-eb-CwZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -196,7 +196,7 @@
         <scene sceneID="PEW-gR-WZf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rev-LL-YNu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Grid View" id="2aI-0D-PeL"/>
+                    <tabBarItem key="tabBarItem" title="Grid View" image="ticket_tabbar_icon" id="2aI-0D-PeL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ith-DH-8eP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -212,4 +212,8 @@
             <point key="canvasLocation" x="1366.6666666666667" y="-121.20535714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="now_playing_tabbar_item" width="21" height="21"/>
+        <image name="ticket_tabbar_icon" width="25" height="25"/>
+    </resources>
 </document>
